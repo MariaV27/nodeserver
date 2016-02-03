@@ -1,6 +1,6 @@
 var http = require('http');
-var PORT = 7000;
-var PORT2 = 7500;
+var GOODPORT = 7000;
+var BADPORT = 7500;
 
 
 var goodServer = http.createServer(function(req, res){
