@@ -2,7 +2,7 @@ var http + require("http");
 var PORT = 8080;
 
 var server + http.createServer(handleRequest(req, res){
-  res.write("Sever is running!")
+  res.write("Sever is running!");
 
   setTimeout(function){
   res.end;
@@ -11,5 +11,5 @@ var server + http.createServer(handleRequest(req, res){
  }) ;
 
 server.listen(PORT, function() {
-  console.long("Server is listening on http://localhost:%", PORT);
+  console.log("Server is listening on http://localhost:%", PORT);
 });
